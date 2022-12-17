@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageDemo</title>
+    <link rel="stylesheet" href="style-home.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+            }
+
+        #particles-js{
+            width: 90%;
+            height: 60vh;
+            background-color: black;
+        }
+        .part-h1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="float-container">
+        <div id="left-col">
+            <div id="link-1">
+                <a href="Home.html">Home</a>
+            </div>
+            <div id="link-2">
+                <a href="../Projects/Projects.html">Projects</a>
+            </div>
+            <div id="link-3">
+                <a href="https://github.com/mayasamra">Github</a>
+            </div>
+            <div id="link-4">
+                <a href="file:///Users/mayasamra/Desktop/Maya%20Samra%20-%20Resume.pdf">CV</a>
+            </div>
+        </div>
+
+        <div id="right-home">
+            <div id="home">
+                <h2>Home</h2>
+                <div id="particles-js">
+                    <h1 class="part-h1">Welcome! Take a look around.</h1>
+                </div>
+                <script src="particles.js"></script>
+                <script src="app.js"></script>
+            </div>
+            <div id="about-me">
+                <h2>About Me</h2>
+                <p class="about-me-p">My name is Maya Samra and I'm a student at the University of Waterloo. I'm in my first year of the Honours Mathematics program and plan on pursuing pure mathematics in school while accumulating software development experience in my co-ops. Aside from coding and math, I love playing guitar and piano as well as soccer in my free time. I haven't been coding for very long, but I'm always learning new concepts or languages to push myself.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
