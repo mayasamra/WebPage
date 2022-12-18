@@ -11,7 +11,7 @@
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
 
         #particles-js{
@@ -19,12 +19,21 @@
             height: 60vh;
             background-color: black;
         }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
         .part-h1{
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 20px;
+            animation: fadeIn 8s;
+        }
+        #particles-2{
+            width: 90%;
+            height: 60vh;
         }
     </style>
 </head>
@@ -54,9 +63,14 @@
                 <script src="particles.js"></script>
                 <script src="app.js"></script>
             </div>
-            <div id="about-me">
-                <h2>About Me</h2>
-                <p class="about-me-p">My name is Maya Samra and I'm a student at the University of Waterloo. I'm in my first year of the Honours Mathematics program and plan on pursuing pure mathematics in school while accumulating software development experience in my co-ops. Aside from coding and math, I love playing guitar and piano as well as soccer in my free time. I haven't been coding for very long, but I'm always learning new concepts or languages to push myself.</p>
+            <div id="container-2">
+                <div id="about-me">
+                    <h2>About Me</h2>
+                    <p class="about-me-p">My name is Maya Samra and I'm a student at the University of Waterloo. I'm in my first year of the Honours Mathematics program and plan on pursuing pure mathematics in school while accumulating software development experience in my co-ops. Aside from coding and math, I love playing guitar and piano as well as soccer in my free time. I haven't been coding for very long, but I'm always learning new concepts or languages to push myself.</p>
+                </div>
+                <div id="picture">
+                    <img src="picOfMe.png">
+                </div>
             </div>
         </div>
     </div>
