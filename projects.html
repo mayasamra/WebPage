@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style-projects.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" href="moon.png">
+    <link rel="stylesheet" href="style-projects.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+    </style>
 </head>
 <body>
-    <h1>Projects Page.</h1>
+    <!-- left column - do not touch -->
+    <div id="float-container">
+        <div id="left-col">
+            <div id="link-1">
+                <a href="index.html">Home</a>
+            </div>
+            <div id="link-2">
+                <a href="projects.html">Projects</a>
+            </div>
+            <div id="link-3">
+                <a href="https://github.com/mayasamra" target="__blank__">Github</a>
+            </div>
+            <div id="link-4">
+                <a href="file:///Users/mayasamra/Desktop/Maya%20Samra%20-%20Resume.pdf">CV</a>
+            </div>
+        </div>
+        <!-- end of left column -->
+
+        <!-- right side of page begins -->
+        <div id="right-projects">
+            <div id="projects">
+                <h2>Featured Projects</h2>
+                <div id="falling-sand">
+                    <img src="fallingSand.png">
+                    <p>this is a falling sand simulation. created in JavaScript, python, (...)</p>
+                </div>
+                <div id="slingshot">
+                    <img src="slingshot.png">
+                    <p>this is a slingshot simulation. created with JavaScript physics engine (...) matter.js</p>
+                </div>
+                <div id="stock-sim">
+                    <img src="stock-pic.png">
+                    <p>this is a stock data fetcher. created with python, ...</p>
+                </div>
+            </div>
+        </div>
+        <!-- right side ends (?) -->
+    </div>
 </body>
 </html>
