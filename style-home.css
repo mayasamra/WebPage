@@ -1,7 +1,7 @@
 #float-container{
     display: flex;
 }
-a{ text-decoration: none; 
+#left-col a{ text-decoration: none; 
     box-shadow: inset 0 0 0 0 white;
     color: #2d2f31;
     margin: 0 -.25rem;
@@ -9,14 +9,14 @@ a{ text-decoration: none;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     font-weight: bold;
 }
-a:link    { color: white; text-decoration: none; }
-a:visited { color: white; text-decoration: none; }
-a:hover {
+#left-col a:link    { color: white; text-decoration: none; }
+#left-col a:visited { color: white; text-decoration: none; }
+#left-col a:hover {
     box-shadow: inset 105px 0 0 0 #2d2f31;
     color: white;
   }
-a:active  { color: black; text-decoration: none; }
-a {font-size: 20px;}
+#left-col a:active  { color: black; text-decoration: none; }
+#left-col a {font-size: 20px;}
 
 #left-col{
     float: left;
@@ -115,3 +115,16 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid slategrey;
 }
 
+.zoom {
+    transition: transform .2s; 
+    margin-left: 0;
+    display: inline-flex;
+    transform: scale(0.4, 0.4);
+    margin-right: 30px;
+    float: left;
+    padding: 0;
+}
+
+.zoom:hover {
+    transform: scale(0.3); 
+}
