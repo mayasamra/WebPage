@@ -3,10 +3,10 @@
 }
 
 h2{
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
-a{ text-decoration: none; 
+#left-col a{ text-decoration: none; 
   box-shadow: inset 0 0 0 0 white;
   color: #2d2f31;
   margin: 0 -.25rem;
@@ -14,14 +14,14 @@ a{ text-decoration: none;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   font-weight: bold;
 }
-a:link    { color: white; text-decoration: none; }
-a:visited { color: white; text-decoration: none; }
-a:hover {
+#left-col a:link    { color: white; text-decoration: none; }
+#left-col a:visited { color: white; text-decoration: none; }
+#left-col a:hover {
   box-shadow: inset 105px 0 0 0 #2d2f31;
   color: white;
 }
-a:active  { color: black; text-decoration: none; }
-a {font-size: 20px;}
+#left-col a:active  { color: black; text-decoration: none; }
+#left-col a {font-size: 20px;}
 
 #left-col{
   float: left;
@@ -77,9 +77,19 @@ body{
   font-family: "Open Sans"; 
 }
 img{
-  width: 200px;
+  width: 300px;
   height: auto;
   float: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#projects p{
+  padding-top: 100px;
+  float: right;
+  margin-right: 250px;
+  width: 40%;
+  line-height: 40px;
 }
 
 body::-webkit-scrollbar {
@@ -89,7 +99,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
